@@ -1,17 +1,17 @@
 // Палиндром — слово, которое одинаково читается слева направо и справа налево: шалаш, казак, потоп.
 // Урок 5, 9 ноября 2026.
 
-fun main() {                                   // fun = function, функция; main — главная
-    val name = "шалаш"                         // name — имя; это String, строка
+// is — «является»; word — слово; Boolean — ответ да/нет (true/false)
+fun isPalindrome(word: String): Boolean {
     var reversed = ""                          // reversed — перевёрнутое; "" — пустая строка
-
-    for (i in name.length - 1 downTo 0) {      // length — длина; downTo — вниз до
-        reversed = reversed + name[i]          // приклеиваем букву к копилке
+    for (i in word.length - 1 downTo 0) {      // length — длина; downTo — вниз до
+        reversed = reversed + word[i]          // приклеиваем букву к копилке
     }
+    return word == reversed                    // return — вернуть ответ; == — «равно?»
+}
 
-    if (name == reversed) {                    // == — «равно?»
-        println("$name — палиндром")
-    } else {
-        println("$name — не палиндром")
-    }
+fun main() {                                   // fun = function, функция; main — главная, отсюда старт
+    println(isPalindrome("шалаш"))             // true
+    println(isPalindrome("азор"))              // false: задом наперёд «роза»
+    println(isPalindrome("Анна"))              // false: «А» и «а» для Kotlin разные буквы
 }
