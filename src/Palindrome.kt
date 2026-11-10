@@ -15,4 +15,5 @@ fun main() {                                   // fun = function, функция
     println(isPalindrome("шалаш"))             // true
     println(isPalindrome("азор"))              // false: задом наперёд «роза»
     println(isPalindrome("Анна"))              // true: lowercase сделал «анна», ловушка обезврежена
+    println("Анна".lowercase())                // анна — само слово маленькими буквами
 }
