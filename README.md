@@ -9,7 +9,7 @@
 | Задача | Файл | Что использовано |
 |---|---|---|
 | Средний балл из диплома | [src/AverageGrade.kt](src/AverageGrade.kt) | `listOf`, `for`, копилка, `toDouble()`, `format` |
-| Палиндром | [src/Palindrome.kt](src/Palindrome.kt) | строки, индексы, `length - 1`, `downTo`, функция `Boolean`, `return` |
+| Палиндром | [src/Palindrome.kt](src/Palindrome.kt) | строки, индексы, `length - 1`, `downTo`, функция `Boolean`, `return`, `lowercase()` |
 
 ## Как запустить
 
