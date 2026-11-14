@@ -12,6 +12,7 @@
 | Палиндром | [src/Palindrome.kt](src/Palindrome.kt) | строки, индексы, `length - 1`, `downTo`, функция `Boolean`, `return`, `lowercase()` |
 | Списки: сколько палиндромов | [src/Lists.kt](src/Lists.kt) | `listOf`, `size`, `size - 1`, `for (w in words)`, счётчик `count`, `if` + своя функция |
 | Изменяемые списки: собрать положительные | [src/MutableLists.kt](src/MutableLists.kt) | `mutableListOf`, `add`, `remove`, `sum()`, `max()`, `min()`, пустой список `<Int>` |
+| Морозные дни (сам, без пропусков) | [src/Frost.kt](src/Frost.kt) | фильтр `n < 0`, `mutableListOf<Int>()`, `add`, `size`, `min()` |
 
 ## Как запустить
 
