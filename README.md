@@ -13,6 +13,7 @@
 | Списки: сколько палиндромов | [src/Lists.kt](src/Lists.kt) | `listOf`, `size`, `size - 1`, `for (w in words)`, счётчик `count`, `if` + своя функция |
 | Изменяемые списки: собрать положительные | [src/MutableLists.kt](src/MutableLists.kt) | `mutableListOf`, `add`, `remove`, `sum()`, `max()`, `min()`, пустой список `<Int>` |
 | Морозные дни (сам, без пропусков) | [src/Frost.kt](src/Frost.kt) | фильтр `n < 0`, `mutableListOf<Int>()`, `add`, `size`, `min()` |
+| when: оценки, погода, цвет кодпичика | [src/When.kt](src/When.kt) | `when (x)`, `1, 2 ->`, `when` с условиями, порядок строк, `else` |
 
 ## Как запустить
 
