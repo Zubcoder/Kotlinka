@@ -15,6 +15,7 @@
 | Морозные дни (сам, без пропусков) | [src/Frost.kt](src/Frost.kt) | фильтр `n < 0`, `mutableListOf<Int>()`, `add`, `size`, `min()` |
 | when: оценки, погода, цвет кодпичика | [src/When.kt](src/When.kt) | `when (x)`, `1, 2 ->`, `when` с условиями, порядок строк, `else` |
 | Map: словарик и цвета кодпичиков | [src/Map.kt](src/Map.kt) | `mapOf`, `to`, поиск по ключу, `null`, `?:`, `mutableMapOf`, добавить/заменить, `in` |
+| Классы и null: коты, кодпичики, уроки | [src/Classes.kt](src/Classes.kt) | `data class`, точка `.name`, список объектов, `Boolean`-свойство, `String?`/`Int?`, `?:` в `${}` |
 
 ## Как запустить
 
