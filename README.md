@@ -16,7 +16,7 @@
 | when: оценки, погода, цвет кодпичика | [src/When.kt](src/When.kt) | `when (x)`, `1, 2 ->`, `when` с условиями, порядок строк, `else` |
 | Map: словарик и цвета кодпичиков | [src/Map.kt](src/Map.kt) | `mapOf`, `to`, поиск по ключу, `null`, `?:`, `mutableMapOf`, добавить/заменить, `in` |
 | Классы и null: коты, кодпичики, уроки | [src/Classes.kt](src/Classes.kt) | `data class`, точка `.name`, список объектов, `Boolean`-свойство, `String?`/`Int?`, `?:` в `${}` |
-| Лямбды: числа, коты, кодпичики | [src/Lambdas.kt](src/Lambdas.kt) | `{ }`, `it`, `n ->`, `filter`, `forEach`, `map`, `count`, `sumOf`, цепочка `filter { }.map { }` |
+| Лямбды: числа, коты, кодпичики, уроки | [src/Lambdas.kt](src/Lambdas.kt) | `{ }`, `it`, `n ->`, `filter`, `forEach`, `map`, `count`, `sumOf`, цепочка `filter { }.map { }`, среднее `sumOf / size` |
 
 ## Как запустить
 
