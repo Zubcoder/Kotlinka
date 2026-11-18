@@ -17,6 +17,7 @@
 | Map: словарик и цвета кодпичиков | [src/Map.kt](src/Map.kt) | `mapOf`, `to`, поиск по ключу, `null`, `?:`, `mutableMapOf`, добавить/заменить, `in` |
 | Классы и null: коты, кодпичики, уроки | [src/Classes.kt](src/Classes.kt) | `data class`, точка `.name`, список объектов, `Boolean`-свойство, `String?`/`Int?`, `?:` в `${}` |
 | Лямбды: числа, коты, кодпичики, уроки | [src/Lambdas.kt](src/Lambdas.kt) | `{ }`, `it`, `n ->`, `filter`, `forEach`, `map`, `count`, `sumOf`, цепочка `filter { }.map { }`, среднее `sumOf / size` |
+| Сортировка: коты и уроки | [src/Sorting.kt](src/Sorting.kt) | `sortedBy`, `sortedByDescending`, по алфавиту, цепочка `filter`→`sortedBy`→`map`, `first()`, устойчивая сортировка |
 
 ## Как запустить
 
